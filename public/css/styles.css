@@ -4,7 +4,7 @@
     padding: 0px;
     font-size: 16px;
 }
-/* reglas generales  */
+/* reglas generales */
 body {
     width: 100%;
     font-family: "Roboto", sans-serif;
@@ -20,11 +20,13 @@ main{
 }
 /* Seteo los tamaños de letra */
 .headline{
-    font-size: 24px; 
+    font-size: 20px; 
     text-align: center;
     margin: 20px 0px;
 }
-.body-text { font-size: 12px; }
+.body-text { 
+    font-size: 1em; 
+}
 .precios { 
     display: flex;
     font-size: 18px;
@@ -232,6 +234,7 @@ footer div.main-footer {
 }
 footer div.main-footer section div{
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 footer div.main-footer section p {
     padding-top: 15px;
@@ -252,7 +255,7 @@ body main form{
 body main form input, body main form input.input-on-log{
     width: 100%;
     padding: 20px;
-    margin: 10px 0px 24px 0px;
+    margin: 10px 0px 18px 0px;
     background-color: #fff;
     border: none;
 }
@@ -344,7 +347,7 @@ body main form div.checkbox-box label[for="checkbox"], label[for="radio"]{
 
 @media (min-width: 490px){
     body main form div.checkbox-box label[for="checkbox"], label[for="radio"]{
-        font-size: 16px;
+        font-size: 1em;
     }
     main section div.products article{
         width: 40%;
@@ -438,6 +441,7 @@ body main form div.checkbox-box label[for="checkbox"], label[for="radio"]{
     }
     body main form {
         width: 768px;
+        background-color: #f18203;
     }
     main div.buttons-on-reg button {
         width: 45%;
@@ -457,8 +461,12 @@ body main form div.checkbox-box label[for="checkbox"], label[for="radio"]{
         max-width: none;
         margin: 0px;
     }
-    .container-nav{ margin-top: 1.5rem; }
-    .container-nav li{ margin: 0 0.8rem; }
+    .container-nav{ 
+        margin-top: 1.5rem; 
+    }
+    .container-nav li{ 
+        margin: 0 0.8rem; 
+    }
     footer div.main-footer {
         padding: 25px 0px;
         max-width: 1200px;
